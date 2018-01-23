@@ -1,0 +1,147 @@
+/**** Vista Splash y End ****/
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+/* Degradado 100% pantalla dispositivo*/
+.gradient {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient( 330deg, #D60985, #5D0063);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Caja de logo centrada en "x", "y" direcciones */
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* Icono giratorio, icono pulgar, márgenes y tamaño relativos
+indezx, end*/
+i.fa-spinner.fa-spin, i.glyphicon-thumbs-up {
+  font-size: 5em;
+  color: rgba(255,255,255,.9);
+  margin-top: 8%;
+}
+
+i.fa-home {
+  font-family:"FontAwesome", sans-serif;
+  font-size: 1.5em;
+  color: #cecece;
+  text-decoration: none;
+  position: absolute;
+  left: 5%;
+  top: 4%;
+}
+
+i.fa-home:hover {
+  color: #fff;
+  transition: all 2s ease-oin-out;
+}
+
+/***Vista "home" ***/
+div.large-image {
+  background-image: url(../assets/images/japan.jpg);
+  width: 100vw;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+
+/* Opacidad canal alpha, en tono púrpura */
+.home-buttons{
+  background: rgba(83,0,96,.3);
+}
+
+.margin-0 {
+  margin:0;
+}
+
+.padding-vh{
+  padding: 15vh 0;
+  padding-bottom: 25vh;
+}
+
+.white{
+  color: #fff;
+}
+
+/***Vista Sign***/
+
+form#phone {
+  width: 60vw;
+  max-width: 100px;
+}
+
+/* Estilos flecha para regresar */
+.arrow-style{
+	color: #EA0B8C;
+  font-size: 2em;
+  padding: 0;
+  text-decoration: none;
+}
+/* Estilos al interactuar con mouse */
+.arrow-style:hover{
+	cursor: pointer;
+	color: purple;
+  text-decoration: none;
+}
+
+/* Elementos centrados vertical y horizontalmente */
+.centered{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Tamaño h1 */
+.form-title{
+  font-size: 2.5em;
+  margin-right: 10vw;
+}
+
+/* Fondo botón "next" */
+.pink-btn {
+  background-color: #EA0B8C;
+  color: #fff;
+}
+
+/* Tamaño h4 */
+.subtitle {
+  font-size: 1em;
+  margin-right: 10vw;
+}
+
+/*** Vista "Sign in" ***/
+
+/* Nombre, e-mail */
+form {
+  width: 75vw;
+  max-width: 500px;
+}
+
+/* Términos*/
+.small-letter {
+  font-size: .9em;
+  padding: 3%;
+}
+
+/* Logo blanco en tablet y lap...etc*/
+@media(min-width:768px) {
+  img.little-white {
+    margin-left: 2.5em;
+  }
+}
